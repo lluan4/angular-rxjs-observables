@@ -3,5 +3,7 @@
 <p>Working with "Streams of Data".</p>
 
 <p>
-  <button>Click</button>
+  <button (click)="handleClick()">Click</button>
 </p>
+<p>Click count: {{ clickCount() }}</p>
+<p>Interval: {{ intervalSignal() }}</p>
